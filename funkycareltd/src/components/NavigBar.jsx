@@ -113,7 +113,7 @@ export default function NavigBar() {
     </NavbarLink>
 
     <span className="text-2xl font-extrabold text-lime-800 whitespace-nowrap">
-      Step-by-Step Support
+      Funky Care Limited
     </span>
   </NavbarBrand>
 
