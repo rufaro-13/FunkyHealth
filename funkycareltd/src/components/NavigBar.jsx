@@ -2,7 +2,7 @@
 'use client'
 //import { useState } from 'react';
 //import {FaEnvelopeOpenText,FaMobileScreenButton} from 'react-icons/fa6';
-import {Navbar, NavbarBrand, NavbarCollapse, NavbarToggle, NavbarLink} from "flowbite-react";
+import {Navbar, NavbarBrand, NavbarCollapse, NavbarToggle, NavbarLink, Dropdown} from "flowbite-react";
 import { Link } from "react-router-dom";
 import logo from '../assets/vite.svg';
 //import {IconContext} from "react-icons";
@@ -145,12 +145,13 @@ export default function NavigBar() {
     </NavbarLink>
 
     <NavbarLink
-      as={Link}
+       as={Link}
       to="/services"
-      className="font-bold text-lg"
+      className="font-bold text-lg" 
     >
-      Services
-    </NavbarLink>
+      Services 
+          
+    </NavbarLink> 
 
     <NavbarLink
       as={Link}

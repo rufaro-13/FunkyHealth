@@ -40,6 +40,13 @@
   background-repeat: no-repeat;
 }
 
+.services-bg {
+  background-image: url('/src/images/magnific_supported-living-for-adul_kLXHCFx16B.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .hero::before {
   content: "";
   position: absolute;

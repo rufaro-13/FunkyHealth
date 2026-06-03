@@ -3,6 +3,7 @@
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Services from "./pages/Services";
 import {Routes, Route } from 'react-router-dom';
 /* import Tables from "./components/Tables"; */
 export default function App1() {
@@ -14,6 +15,7 @@ export default function App1() {
             <Route forceRefresh={true} path="/" element={<Layout/>}>
                <Route forceRefresh={true} index element = {<Home/>}></Route>
                <Route forceRefresh={true} path='/about' element= {<About/>}></Route>
+               <Route forceRefresh={true} path='/services' element= {<Services/>}></Route>
             </Route>
       </Routes>
 

@@ -68,7 +68,7 @@ export default function About() {
 
                                 <p className="pl-4 text-justify text-sm leading-7">
                                 
-                                <b className="text-titleblue">Person Centered Care -</b> FFM Compcare Limited is flexible and we value service user’s unique needs. We work with each individual according to their care and 
+                                <b className="text-titleblue">Person Centered Care -</b> Funky Care Limited is flexible and we value service user’s unique needs. We work with each individual according to their care and 
                                     support plan.
                                 <br/><br/>
 
@@ -86,7 +86,7 @@ export default function About() {
 
                                 <p className="pl-4 text-justify text-sm leading-7 ">
                                 
-                                <b className="text-titleblue">Service excellence -</b> FFM Compare Limited strives to provide the best services possible in accordance with current guidelines and recommendations to 
+                                <b className="text-titleblue">Service excellence -</b> Funky Care Limited strives to provide the best services possible in accordance with current guidelines and recommendations to 
                                     clients and all stakeholders.
 
                                 <br/><br/>
@@ -105,7 +105,7 @@ export default function About() {
 
                                 <p className="pl-4 text-justify text-sm leading-7">
                                 
-                                <b className="text-titleblue">Dignity and respect-</b> At FFM Compcare Limited we understand that people’s choices can be varied and need to be respected.
+                                <b className="text-titleblue">Dignity and respect-</b> At Funky Care Limited we understand that people’s choices can be varied and need to be respected.
 
 
                                 <br/><br/>
@@ -125,7 +125,7 @@ export default function About() {
 
                                 <p className="pl-4 text-justify text-sm leading-7">
                                 
-                                <b className="text-titleblue">Equality -</b> FFM Compcare Limited is flexible and we value service user’s unique needs. We work with each individual according to their care and 
+                                <b className="text-titleblue">Equality -</b> Funky Care Limited is flexible and we value service user’s unique needs. We work with each individual according to their care and 
                                     support plan.
                                 <br/><br/>
 
@@ -176,7 +176,7 @@ export default function About() {
                                     <b className="text-titleblue">Dr ---------, Director -</b>  is a dedicated and experienced general adult psychiatrist, 
                                     proudly serving as a member of the Royal College of Psychiatrists. With a career in the mental health sector spanning over a decade, Dr. Farai 
                                     Makoni has honed expertise across a range of settings, including community, inpatient, and specialist services such as Early Intervention in Psychosis. 
-                                    As a director of FFM Compcare Limited, Dr. Farai Makoni brings a wealth of knowledge and a compassionate approach to mental health care, ensuring that 
+                                    As a director of Funky Care Limited, Dr. Farai Makoni brings a wealth of knowledge and a compassionate approach to mental health care, ensuring that 
                                     supported living and domiciliary care services are delivered with the highest standards of excellence and empathy. Committed to fostering a supportive 
                                     environment, ------------ is passionate about empowering individuals to achieve their fullest potential and enhancing their quality of life. With 
                                     a strong focus on person-centered care, Dr. Farai is poised to make a significant impact in the community, guided by Dr. Farai's visionary leadership 
