@@ -18,7 +18,7 @@ export default function About() {
                     <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-2/4 mb-4 md:mb-0 border rounded-lg" src={Goal} alt="Goal"/>
                     <div className="flex flex-col justify-between md:p-4 leading-normal">
                         <h5 className="mb-2 text-center text-2xl font-bold tracking-tight text-heading">Our Mission</h5>
-                        <p className="mt-6 text-body">At Funky Care Limited, our mission is to deliver outstanding supported living and respite care services tailored to individuals with 
+                        <p className="mt-6 text-body text-sm leading-7">At Funky Care Limited, our mission is to deliver outstanding supported living and respite care services tailored to individuals with 
                             learning disabilities, mental health challenges and other complex care needs. We are dedicated to fostering empowerment, independence and 
                             dignity through personalized care that respects each individual's unique journey. Our commitment to service excellence ensures that every person 
                             we support receives compassionate and inclusive care that promotes equality and pride. Our team of healthcare professionals is always
@@ -30,7 +30,7 @@ export default function About() {
                     <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-2/4 mb-4 md:mb-0 border rounded-lg" src={Vision} alt="Vision"/>
                     <div className="flex flex-col justify-between md:p-4 leading-normal">
                         <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-heading">Our Vision.</h5>
-                        <p className="mt-6 text-body">Our vision is to be the foremost provider of comprehensive care services across the UK, recognized for our 
+                        <p className="mt-6 text-body text-sm leading-7">Our vision is to be the foremost provider of comprehensive care services across the UK, recognized for our 
                             expertise in supported living and respite care for those with diverse needs. We aim to create a nurturing environment where individuals 
                             with learning disabilities, mental health conditions, and complex care requirements can thrive. Through innovation, collaboration, and a 
                             steadfast commitment to dignity and respect, we aspire to set new benchmarks in quality care and inclusivity.</p>
@@ -49,7 +49,7 @@ export default function About() {
                     
                     <div className="flex flex-col justify-between md:p-4 leading-normal">
                         <h5 className="mb-2 text-2xl font-bold tracking-tight text-heading">Our Values.</h5>
-                        <p className="mb-6 text-body">At Funky Care Limited, our mission is to deliver outstanding supported living and respite care services tailored to individuals with 
+                        <p className="mb-6 text-body text-sm leading-7">At Funky Care Limited, our mission is to deliver outstanding supported living and respite care services tailored to individuals with 
                             learning disabilities, mental health challenges, and other complex care needs. We are dedicated to fostering empowerment, independence, and 
                             dignity through personalized care that respects each individual's unique journey. Our commitment to service excellence ensures that every person 
                             we support receives compassionate and inclusive care that promotes equality and pride. Our team of healthcare professionals is always
@@ -66,7 +66,7 @@ export default function About() {
                                 </IconContext.Provider>
                             
 
-                                <p className="pl-4 text-justify ">
+                                <p className="pl-4 text-justify text-sm leading-7">
                                 
                                 <b className="text-titleblue">Person Centered Care -</b> FFM Compcare Limited is flexible and we value service user’s unique needs. We work with each individual according to their care and 
                                     support plan.
@@ -84,7 +84,7 @@ export default function About() {
                                 </IconContext.Provider>
                             
 
-                                <p className="pl-4 text-justify ">
+                                <p className="pl-4 text-justify text-sm leading-7 ">
                                 
                                 <b className="text-titleblue">Service excellence -</b> FFM Compare Limited strives to provide the best services possible in accordance with current guidelines and recommendations to 
                                     clients and all stakeholders.
@@ -103,7 +103,7 @@ export default function About() {
                                 </IconContext.Provider>
                             
 
-                                <p className="pl-4 text-justify ">
+                                <p className="pl-4 text-justify text-sm leading-7">
                                 
                                 <b className="text-titleblue">Dignity and respect-</b> At FFM Compcare Limited we understand that people’s choices can be varied and need to be respected.
 
@@ -123,7 +123,7 @@ export default function About() {
                                 </IconContext.Provider>
                             
 
-                                <p className="pl-4 text-justify ">
+                                <p className="pl-4 text-justify text-sm leading-7">
                                 
                                 <b className="text-titleblue">Equality -</b> FFM Compcare Limited is flexible and we value service user’s unique needs. We work with each individual according to their care and 
                                     support plan.
@@ -141,7 +141,7 @@ export default function About() {
                                 </IconContext.Provider>
                             
 
-                                <p className="pl-4 text-justify ">
+                                <p className="pl-4 text-justify text-sm leading-7">
                                 
                                 <b className="text-titleblue">Pride -</b> We are passionate about making a positive difference to the individuals and community we support.
                                 <br/><br/>
@@ -171,7 +171,7 @@ export default function About() {
                                     </IconContext.Provider>
                                 
 
-                                    <p className="px-4 text-justify ">
+                                    <p className="px-4 text-justify text-sm leading-7">
                                     
                                     <b className="text-titleblue">Dr ---------, Director -</b>  is a dedicated and experienced general adult psychiatrist, 
                                     proudly serving as a member of the Royal College of Psychiatrists. With a career in the mental health sector spanning over a decade, Dr. Farai 
@@ -197,7 +197,7 @@ export default function About() {
                                     </IconContext.Provider>
                                 
 
-                                    <p className="px-4 text-justify ">
+                                    <p className="px-4 text-justify text-sm leading-7">
                                     
                                     <b className="text-titleblue">Francis Mutazu  -</b>  is a registered social worker and member of Social Work England, holding an MA in Social Work. 
                                     With extensive experience in both children and family services as well as adult social care, he specializes in supporting individuals with learning 
@@ -232,7 +232,7 @@ export default function About() {
                                     </IconContext.Provider>
                                 
 
-                                    <p className="pl-4 text-justify ">
+                                    <p className="pl-4 text-justify text-sm leading-7">
                                     
                                     <b className="text-titleblue">We Are Reliable  -</b>  We offer 24 hour services. Anytime you request our services, we show up to work
                                     according to personl schedule. We also make at-home care easy for loved ones.
@@ -253,7 +253,7 @@ export default function About() {
                                     </IconContext.Provider>
                                 
 
-                                    <p className="pl-4 text-justify ">
+                                    <p className="pl-4 text-justify text-sm leading-7">
                                     
                                     <b className="text-titleblue">We Care -</b> We have a team of dedicated, passionate and experienced caregivers who provide great care.
                                     We work with families to find the most suitable caregiver for their loved ones. We also provide training to our caregivers to ensure they 
@@ -274,7 +274,7 @@ export default function About() {
                                     </IconContext.Provider>
                                 
 
-                                    <p className="pl-4 text-justify ">
+                                    <p className="pl-4 text-justify text-sm leading-7">
                                     
                                     <b className="text-titleblue">We Are Professionals -</b> Our staff members are highly trained and experienced in providing care to 
                                     individuals with diverse needs. We are committed to maintaining the highest standards of professionalism and ensuring that our 
