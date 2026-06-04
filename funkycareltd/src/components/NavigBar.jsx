@@ -119,11 +119,11 @@ export default function NavigBar() {
 
   <NavbarToggle />
 
-  <NavbarCollapse className="md:flex md:items-center md:space-x-8 ml-auto">
+  <NavbarCollapse className="md:flex md:items-center md:space-x-8 ml-auto mr-5">
     <NavbarLink
       as={Link}
       to="/"
-      className="font-bold text-lg"
+      className=" text-lg"
     >
       Home
     </NavbarLink>
@@ -131,7 +131,7 @@ export default function NavigBar() {
     <NavbarLink
       as={Link}
       to="/about"
-      className="font-bold text-lg"
+      className=" text-lg"
     >
       About
     </NavbarLink>
@@ -139,7 +139,7 @@ export default function NavigBar() {
     <NavbarLink
       as={Link}
       to="/activities"
-      className="font-bold text-lg"
+      className="text-lg"
     >
       Activities
     </NavbarLink>
@@ -147,7 +147,7 @@ export default function NavigBar() {
     <NavbarLink
        as={Link}
       to="/services"
-      className="font-bold text-lg" 
+      className=" text-lg" 
     >
       Services 
           
@@ -156,7 +156,7 @@ export default function NavigBar() {
     <NavbarLink
       as={Link}
       to="/careers"
-      className="font-bold text-lg"
+      className=" text-lg"
     >
       Careers
     </NavbarLink>
@@ -164,7 +164,7 @@ export default function NavigBar() {
     <NavbarLink
       as={Link}
       to="/contact"
-      className="font-bold text-lg"
+      className=" text-lg"
     >
       Contact
     </NavbarLink>

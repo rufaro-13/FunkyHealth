@@ -1,11 +1,11 @@
 
-/* import garden from '../images/magnific_people-of-different-races_4BrYUz9Aai.png'
-import garden1 from '../images/garden.jpg'
+ import garden from '../images/magnific_people-of-different-races_4BrYUz9Aai.png'
+/*import garden1 from '../images/garden.jpg'
 import learning from '../images/2149060879.jpg'
-import learning2 from '../images/2147664205.jpg'
-import fun from '../images/2151205679.jpg'
-import hike from '../images/42682.jpg'
-import çommunity from '../images/2151346564.jpg' */
+import learning2 from '../images/2147664205.jpg'*/
+import fun from '../images/magnific_disabled-people-doing-art_3GrBWhYREY.png'
+import hike from '../images/magnific_interracial-group-biking-_y6Has3ePW9.png'
+import art from '../images/magnific_disabled-people-doing-art_fFWS5yUCDY.png' 
 function Activities() {
   return (
     <div className='relative w-full bg-cover bg-center bg-no-repeat   bg-blend-multiply mb-5'>
@@ -19,30 +19,13 @@ function Activities() {
             <div class="px-4 mx-auto max-w-screen-xl   py-24 lg:py-40">
                 <h1 class="mb-4 text-2xl font-extrabold  tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-4xl">
                 Activity-Based Care:</h1>
-               <div className='md:flex'>
-                    <div class="  md:w-1/2 pt-4  rounded-lg  text-darkbluetheme mx-4 ">
-                                
-
-                               {/*  <p class=' font-semibold text-sm md:text-lg px-2'>
-                            We offer a range of activities:<br/><br/>
-                                <div className='ml-6'><ul class="list-disc ">
-                                <li><a class='' href='#gardening'><u>Gardening</u></a></li>
-                                <li><a href='#learning'><u>Learning</u></a> </li> 
-                                <li><a href='#others'><u>Other activities</u></a></li>
-                                
-                                </ul></div>
-                                
-                                <br/><br/>
-
-                                </p> */}
-                               {/*  <div class=" col-span-1 px-2 pt-1 pb-2">
-                            <img src={çommunity}class=" rounded-lg md:h-60  mr-3" alt="gardening"/> 
-                        </div> */}
-                                
-
+               <div className='items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row '>
+                     <div  className="flex flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
+                        <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={fun} alt="Value"/>
+                        
                     </div>
 
-                    <div class="  md:w-1/2  border-1 border-navcolour sm:82 rounded-lg   text-darkbluetheme   mx-4 ">
+                    <div class="    border-1 border-navcolour sm:82 rounded-lg   text-darkbluetheme   mx-4 ">
                             <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkbluetheme md:text-2xl lg:text-2xl">
                             What is Activity-Based Care? <br/><br/>
                             </h5>
@@ -151,6 +134,137 @@ function Activities() {
                             </p>
 
                 </div>
+                <div>
+
+                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkbluetheme md:text-2xl lg:text-2xl">
+                            Our Activity Program Includes: <br/><br/>
+                    </h5>
+                    <div  className=" items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
+                        <div  className="flex flex-col items-center bg-neutral-primary-soft pt-5  rounded-base  ">
+                            <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={hike} alt="Value"/>
+                            
+                
+                        </div>
+
+                    <div className="   border-navcolour sm:82 rounded-lg   text-darkbluetheme   mx-4 ">
+                        {/* <h5 className="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-titleblue md:text-2xl lg:text-2xl">
+                            <u>Supported living for Adults</u> <br/><br/>
+                        </h5> */}
+
+                        <p className=' text-sm leading-7 px-2'>
+                        <b>Sensory-Based Activities:</b> Relaxing and calming for customers with complex needs.<br/><br/>
+
+                        <b>Interactive Computers:</b> Enhance IT skills with our accessible technology.<br/><br/>
+
+                        <b>Accessible Garden Allotments:</b> Fully integrated for all to enjoy.<br/><br/>
+
+                        <b>Community Activities:</b> Gardening Projects, Summer Coach Trips, Summer Camping and Hiking, Summer Walks Along Water Canals, 
+                        Cycling Trips, Sunday Visits to Car Boot Sales, Fishing Trips, Holiday Trips to the Seaside and Excursions to Museums, Group 
+                        Gatherings for Friendships, Befriending Services, Life Skills Education, Sporting Activities,
+                        
+                        </p>
+
+                    
+                    </div> 
+
+                    
+
+                    <div className="   border-navcolour sm:82 rounded-lg   text-darkbluetheme   mx-4 ">
+                        <h5 className="mx-auto mt-6 mb-4 text-1xl font-bold tracking-tight leading-none  md:text-2xl lg:text-2xl">
+                            Additional Activities: <br/><br/>
+                        </h5>
+
+                        <p className=' text-sm leading-7 px-2'>
+                            <b>Art and Craft Workshops:</b> Encouraging creativity through painting, drawing, pottery, and other crafts.<br/><br/>
+
+                            <b>Music Therapy:</b> Engaging in music sessions to promote emotional well-being and social interaction.<br/><br/>
+
+                            <b>Dance Classes:</b> Offering various dance styles to improve physical fitness and coordination.<br/><br/>
+
+                            <b>Book Clubs:</b> Facilitating discussions on favorite books and authors to stimulate cognitive engagement.<br/><br/>
+
+                            <b>Cooking Classes:</b> Teaching new recipes and cooking techniques to enhance life skills and nutrition.<br/><br/>
+
+                            <b>Pet Therapy:</b> Interacting with animals to provide comfort and reduce stress. <br/><br/>
+                            <b> Fitness Classes:</b> Including yoga, tai chi, and gentle exercises to promote physical health1.<br/><br/>
+
+                            <b>Walking Groups:</b> Organizing regular walks to encourage physical activity and socialization1.<br/><br/>
+
+                            <b>Movie Nights:</b> Screening popular films for entertainment and relaxation.<br/><br/>
+
+                            <b>Gardening Therapy:</b> Offering therapeutic gardening sessions to promote mental and physical well-being2.<br/><br/>
+
+                            <b>Technology Workshops:</b> Teaching the use of smartphones, tablets, and computers to stay connected with loved ones and access online resources.<br/><br/>
+
+                            <b>Volunteer Opportunities:</b> Encouraging participation in community service projects to foster a sense of purpose and belonging.<br/><br/>
+
+                            <b>Memory Cafés:</b> Providing a supportive environment for individuals with memory loss and their caregivers to socialize and share experiences.<br/><br/>
+                        </p>
+                    
+                    </div> 
+
+                    <div  className="flex flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
+                        <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-full md:w-full mb-4 md:mb-0" src={art} alt="Value"/>
+                        
+            
+                    </div>
+ 
+               
+
+                    </div>
+
+                </div>
+
+<div>
+
+                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkbluetheme md:text-2xl lg:text-2xl">
+                            Gardening <br/><br/>
+                    </h5>
+
+                    <p class='font-normal text-darkbluetheme text-sm leading-7 px-2'>
+                        The benefits of gardening are well documented. We offer a full range of horticultural experiences to our service users. Whether it’s 
+                        potting and planting, harvesting from our allotment, or maintaining our wildlife-friendly spaces, service users can experience the 
+                        therapeutic benefits of being close to nature. Spending time outdoors and tending to plants is known to reduce stress, promote a 
+                        sense of accomplishment and boost psychological well-being.
+                            
+                        
+                            <br/><br/>
+                            </p>
+
+                             <div  className=" items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
+                    
+
+                    <div className="   border-navcolour sm:82 rounded-lg   text-darkbluetheme   mx-4 ">
+                        <h5 className="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-titleblue md:text-2xl lg:text-2xl">
+                            <u>Our Gardening Services Include:</u> <br/><br/>
+                        </h5>
+
+                        <p className=' text-sm leading-7 px-2'>
+                            <ul>
+                                <li>General Garden Maintenance</li>
+                                <li>Grass Cutting</li>
+                                <li>Weed Control</li>
+                                <li>Hedge & Shrub Trimming</li>
+                                <li>Trimming & Border Maintenance</li>
+                                <li>Leaf Blowing & Collection</li>
+                                <li>Moss Removal</li>
+                                <li>Branch Collection</li>
+                                <li>Bespoke Repairs</li>
+                            </ul>
+                        </p>
+                    
+                    </div> 
+
+                    <div  className="flex flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
+                        <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={garden} alt="Value"/>
+                        
+            
+                    </div>
+
+                </div>
+
+                </div>
+                
                
             </div>
         </section>
