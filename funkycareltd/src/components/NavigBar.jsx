@@ -4,7 +4,7 @@
 //import {FaEnvelopeOpenText,FaMobileScreenButton} from 'react-icons/fa6';
 import {Navbar, NavbarBrand, NavbarCollapse, NavbarToggle, NavbarLink, Dropdown} from "flowbite-react";
 import { Link } from "react-router-dom";
-import logo from '../assets/vite.svg';
+import logo from '../images/Funkey Care LTD.png';
 //import {IconContext} from "react-icons";
 //import {  useEffect } from 'react';
 export default function NavigBar() {
@@ -26,7 +26,7 @@ export default function NavigBar() {
   };
 }, []); */
   return (
-<div className=' bg-inherit fixed w-full z-20 top-0 inset-s-0'>
+<div className=' bg-blue-200 fixed w-full z-20 top-0 inset-s-0'>
  {/* <nav class="bg-white border-gray-200 dark:bg-gray-900">
         <div class="flex flex-wrap grid grid-cols-2 sm:h-8 md:h-16  justify-between items-center  max-w-(--breakpoint-2xl) ">
             <div class=" md:flex bg-navcolour h-full items-center space-x-3 rtl:space-x-reverse  ">
@@ -101,7 +101,7 @@ export default function NavigBar() {
     </Navbar> */}
     <Navbar
   fluid
-  className="bg-inherit py-2 px-6 max-w-full"
+  className="bg-blue-200 py-2 px-6 max-w-full"
 >
   <NavbarBrand className="flex items-center gap-3">
     <NavbarLink as={Link} to="/">
