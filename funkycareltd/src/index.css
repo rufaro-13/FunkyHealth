@@ -143,7 +143,7 @@
     display: none;
   }
 
-  .navbar {
+ /*  .navbar {
     background-color: inherit;
   }
 
@@ -152,7 +152,7 @@
   }
   .active {
     color: red;
-  }
+  } */
 
   .container {
     position: relative;

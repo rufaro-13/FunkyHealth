@@ -1,7 +1,7 @@
 import domiciliary from '../images/magnific_supported-living-for-adul_8vReMvJIrU.png'
-import personalCare from '../images/image.png'
-import respite from '../images/magnific_an-old-lady-being-taken-c_J9uS31sOq4.png'
-import socialInclusion from '../images/magnific_a-warm-modern-supported-l_8v3KCY1IrU.jpeg'
+import personalCare from '../images/magnific_helping-a-disabled-person_DBP0aqdpcl.png'
+import respite from '../images/magnific_adult-lying-in-bed-under-_xgmMOkijfW.png'
+import socialInclusion from '../images/magnific_bright-welcoming-supporte_brXYFRa5Y2.png'
 
 /* import { Helmet } from 'react-helmet-async' */
 function Services() {
@@ -14,7 +14,7 @@ function Services() {
         </Helmet> */}
         <section >
         <section className=" bg-cover bg-center bg-no-repeat services-bg bg-gray-600  bg-blend-multiply">
-            <div className="px-4 mx-auto max-w-screen-xl  bg- py-24 lg:py-50">
+            <div className="px-4 mx-auto max-w-7xl  bg- py-24 lg:py-50">
                 <h1 className="mb-4 text-4xl font-extrabold  tracking-tight leading-none text-icyteal md:text-5xl lg:text-6xl">
                  Our Services </h1>
                
@@ -22,7 +22,7 @@ function Services() {
                
             </div>
         </section>
-            <div className=" px-2 mx-auto max-w-screen-xl t pt-4">
+            <div className=" px-2 mx-auto max-w-7xl t pt-4">
 
                 {/* <div className=" mx-auto max-w-screen-xl text-center pt-6  ">
                     <h4 className="bg-gradient-to-r from-violet-950 to-fuchsia-950 bg-clip-text text-transparent mb-4 text-2xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-3xl">
@@ -92,7 +92,7 @@ function Services() {
                 {/* Personal care */}
                 <div  className=" items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
                     <div  className="flex flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
-                        <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={personalCare} alt="Value"/>
+                        <img className="rounded-lg  border object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={personalCare} alt="Value"/>
                         
                     </div>
 
