@@ -30,14 +30,14 @@ export default function NavigBar() {
 
     <Navbar
   fluid
-  className="bg-white! py-1 px-6 max-w-full"
+  className="bg-white! py-1 px-2 max-w-full"
 >
   <NavbarBrand className="flex items-center gap-3">
     <NavbarLink as={Link} to="/">
       <img
         alt="Logo"
         src={logo}
-        className="md:h-30 md:w-30  h-20 w-20 rounded-lg"
+        className="md:h-20 md:w-20  h-16 w-16 rounded-lg"
       />
     </NavbarLink>
 
