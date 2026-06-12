@@ -37,7 +37,7 @@ export default function NavigBar() {
       <img
         alt="Logo"
         src={logo}
-        className="h-30 w-30"
+        className="md:h-30 md:w-30  h-20 w-20 rounded-lg"
       />
     </NavbarLink>
 

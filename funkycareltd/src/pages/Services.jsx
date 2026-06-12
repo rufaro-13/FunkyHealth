@@ -34,8 +34,8 @@ function Services() {
 
                     {/* Supported living for Adults */}
 
-                <div  className=" items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
-                    <div  className="flex flex-col items-center bg-neutral-primary-soft pt-5  rounded-base  ">
+                <div  className=" items-center md:grid md:grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
+                    <div  className="md:flex md:flex-col items-center bg-neutral-primary-soft pt-5  rounded-base  ">
                         <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={domiciliary} alt="Value"/>
                         
             
@@ -65,8 +65,13 @@ function Services() {
                 </div>
                         {/* Respite Care */}
 
-                <div  className=" items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
-                    
+                <div  className=" items-center md:grid md:grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
+                    <div  className="md:flex md:flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
+                        <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={respite} alt="Value"/>
+                        
+            
+                    </div>
+
 
                     <div className="   border-navcolour sm:82 rounded-lg   text-darkbluetheme   mx-4 ">
                         <h5 className="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-titleblue md:text-2xl lg:text-2xl">
@@ -81,17 +86,12 @@ function Services() {
                     
                     </div> 
 
-                    <div  className="flex flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
-                        <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={respite} alt="Value"/>
-                        
-            
-                    </div>
-
+                    
                 </div>
 
                 {/* Personal care */}
-                <div  className=" items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
-                    <div  className="flex flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
+                <div  className=" items-center md:grid md:grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
+                    <div  className="md:flex md:flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
                         <img className="rounded-lg  border object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={personalCare} alt="Value"/>
                         
                     </div>
@@ -116,8 +116,12 @@ function Services() {
                 </div>
 
                 {/* Social inclusion */}
-                <div  className=" items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
+                <div  className=" items-center md:grid md:grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
                    
+                    <div  className="md:flex md:flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
+                        <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={socialInclusion} alt="Value"/>
+                        
+                    </div>
                     <div className="   border-navcolour sm:82 rounded-lg   text-darkbluetheme   mx-4 ">
                         <h5 className="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-titleblue md:text-2xl lg:text-2xl">
                             <u>Social Inclusion</u> <br/><br/>
@@ -137,10 +141,7 @@ function Services() {
                     
                     </div> 
 
-                     <div  className="flex flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
-                        <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={socialInclusion} alt="Value"/>
-                        
-                    </div>
+                     
 
                 </div>
                     

@@ -15,27 +15,27 @@ function Activities() {
             <link rel="canonical" href="/domiciliary" />
         </Helmet> */}
         <section >
-        <section class=" bg-cover bg-center bg-no-repeat bg-activities bg-gray-100  bg-blend-multiply">
-            <div class="px-4 mx-auto max-w-screen-xl   py-24 lg:py-40">
-                <h1 class="mb-4 text-2xl font-extrabold  tracking-tight leading-none text-darkblue md:text-3xl lg:text-4xl">
+        <section className=" bg-cover bg-center bg-no-repeat bg-activities bg-gray-100  bg-blend-multiply">
+            <div className="md:px-4 mx-auto max-w-screen-xl mt-5  py-24 lg:py-40">
+                <h1 className="mb-4 text-2xl font-extrabold  tracking-tight leading-none text-darkblue md:text-3xl lg:text-4xl">
                 Activity-Based Care:</h1>
-               <div className='items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row '>
-                     <div  className="flex flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
+               <div className='items-center md:grid md:grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row '>
+                     <div  className="md:flex md:flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
                         <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={fun} alt="Value"/>
                         
                     </div>
 
-                    <div class="    border-1 border-navcolour sm:82 rounded-lg   text-darkblue   mx-4 ">
-                            <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
+                    <div className="    border-1 border-navcolour sm:82 rounded-lg   text-darkblue   mx-4 ">
+                            <h5 className="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             What is Activity-Based Care? <br/><br/>
                             </h5>
 
-                            <p class='font-normal text-justify text-sm leading-7 px-2'>
+                            <p className='font-normal text-justify text-sm leading-7 px-2'>
                             At Funkey Care Limited, we incorporate an Activity-Based Care (ABC) healthcare delivery model under our social inclusion services. 
                             This model emphasises preventive care, client engagement, and health promotion. The core idea is that by keeping individuals active 
-                            and engaged in various activities, they are more likely to maintain their health and avoid costly medical interventions.<br/><br/>
+                            and engaged in various activities, they are more likely to maintain their health and avoid costly medical interventions.<br/>
                         
-                            <br/>
+                    
                             </p>
 
                         </div> 
@@ -45,18 +45,18 @@ function Activities() {
 
                 <div>
 
-                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
+                    <h5 className="mx-auto mt-4 px-4 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             Benefits of Activity Based Care <br/><br/>
                     </h5>
 
-                    <p class='font-normal text-darkblue text-sm leading-7 px-2'>
+                    <p className='font-normal text-darkblue text-sm leading-7 px-4'>
                         There is a growing body of evidence supporting the positive impact of Activity-Based Care on the health and well-being of adults. 
                         Our approach focuses on promoting and supporting physical activity and social engagement. We engage individuals in their own 
                         health and wellness through education, counseling, and community support. The potential benefits of Activity-Based Care include:<br/><br/>
 
-                            <ul class="list-disc ml-6">
+                            <ul className="list-disc ml-6">
                             <li><b>Improved Physical Health:</b>
-                                <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
+                                <p className='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
                                     Regular physical activity can help reduce the risk of many chronic diseases, such as heart 
                                     disease, stroke, type II diabetes, and some forms of cancer. It can also help improve mental health, 
                                     sleep quality, and overall quality of life.
@@ -64,21 +64,21 @@ function Activities() {
                             </li>
 
                             <li><b>Improved cognitive health</b>
-                                <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
+                                <p className='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
                                 Engaging in social activities and stimulating mental activities can help reduce the risk of cognitive decline and dementia.
 
                                 </p>
                             </li>
                             
                             <li><b>Increased independence and quality of life</b>
-                                <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
+                                <p className='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
                                 People who are physically active and engaged in social activities are more likely to maintain their independence and have a higher quality of life.
                                 </p>
                             </li>
 
 
                             <li><b>Reduced hospitalisations and emergency room visits.</b>
-                                <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
+                                <p className='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
                                 Regular physical activity can help reduce the number of hospitalisations and emergency room visits.
                                 </p>
                             </li>
@@ -92,30 +92,30 @@ function Activities() {
 
                 <div>
 
-                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
+                    <h5 className="mx-auto mt-2 mb-4 px-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             Our Approach <br/><br/>
                     </h5>
 
-                    <p class='font-normal text-darkblue text-sm leading-7 px-2'>
+                    <p className='font-normal text-darkblue text-sm leading-7 px-4'>
                         We work to engage the individuals we support in their own health and wellness through a variety of methods, including:<br/><br/>
 
-                            <ul class="list-disc ml-6">
+                            <ul className="list-disc ml-6">
                                 <li><b>Education:</b>
-                                    <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
+                                    <p className='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
                                         Providing information and resources to help individuals understand the importance of staying active and engaged.
 
                                     </p>
                                 </li>
 
                                 <li><b>Counseling:</b>
-                                    <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
+                                    <p className='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
                                     Offering support and guidance to help individuals incorporate physical activity and social engagement into their daily lives.
 
                                     </p>
                                 </li>
 
                                 <li><b>Community Support:</b>
-                                    <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
+                                    <p className='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
                                     Facilitating access to community resources and activities that promote health and well-being.
                                     </p>
 
@@ -129,11 +129,11 @@ function Activities() {
 
                 <div>
 
-                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
+                    <h5 className="mx-auto px-4 mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             Activity and Community Engagement <br/><br/>
                     </h5>
 
-                    <p class='font-normal text-darkblue text-sm leading-7 px-2'>
+                    <p className='font-normal text-darkblue text-sm leading-7 px-4'>
                         Our experienced staff collaborates with you to create tailored activity packages. We strive to identify skills and areas for 
                         development, ensuring that everyone who participates in our activities has a fulfilling experience. Our activities are 
                         designed to be meaningful, stimulating, and enjoyable, promoting independence and personal growth through identified 
@@ -147,11 +147,11 @@ function Activities() {
                 </div>
                 <div>
 
-                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
+                    <h5 className="mx-auto mt-2 px-4 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             Our Activity Program Includes: <br/><br/>
                     </h5>
-                    <div  className=" items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
-                        <div  className="flex flex-col items-center bg-neutral-primary-soft pt-5  rounded-base  ">
+                    <div  className=" items-center md:grid md:grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
+                        <div  className="md:flex md:flex-col items-center bg-neutral-primary-soft pt-5  rounded-base  ">
                             <img className="rounded-lg  border-1 object-cover w-full rounded-base h-64 md:h-auto md:w-3/4 mb-4 md:mb-0" src={hike} alt="Value"/>
                             
                 
@@ -228,11 +228,11 @@ function Activities() {
 
 <div>
 
-                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
+                    <h5 className="mx-auto mt-2 mb-4 px-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             Gardening <br/><br/>
                     </h5>
 
-                    <p class='font-normal text-darkblue text-sm leading-7 px-2'>
+                    <p className='font-normal text-darkblue text-sm leading-7 px-4'>
                         The benefits of gardening are well documented. We offer a full range of horticultural experiences to our service users. Whether it’s 
                         potting and planting, harvesting from our allotment, or maintaining our wildlife-friendly spaces, service users can experience the 
                         therapeutic benefits of being close to nature. Spending time outdoors and tending to plants is known to reduce stress, promote a 
@@ -279,26 +279,26 @@ function Activities() {
                
             </div>
         </section>
-           {/*  <div class=" px-4 mx-auto max-w-screen-xl t pt-4">
+           {/*  <div className=" px-4 mx-auto max-w-screen-xl t pt-4">
 
-                <div class=" mx-auto max-w-screen-xl text-center pt-6  ">
-                    <h3 class=" mb-4 text-2xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-3xl">
+                <div className=" mx-auto max-w-screen-xl text-center pt-6  ">
+                    <h3 className=" mb-4 text-2xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-3xl">
                        Our Activities:
                     </h3>
                 </div> 
 
-                <div class=" mt-4 ">
+                <div className=" mt-4 ">
 
-                <h4 class=" mt-4 mb-4 text-xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-2xl">
+                <h4 className=" mt-4 mb-4 text-xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-2xl">
                        Gardening:
                     </h4>
-                <div id='gardening' class="md:flex mt-4 pt-8 pb-4">
-                        <div class=" col-span-1 px-2 pt-4">
-                            <img src={garden}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
+                <div id='gardening' className="md:flex mt-4 pt-8 pb-4">
+                        <div className=" col-span-1 px-2 pt-4">
+                            <img src={garden}className=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
                         </div>
 
-                        <div class=" col-span-1 px-2 pt-2">
-                            <img src={garden1}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
+                        <div className=" col-span-1 px-2 pt-2">
+                            <img src={garden1}className=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
                         </div>
                        
 
@@ -306,17 +306,17 @@ function Activities() {
                     
                
 
-                <p class='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
+                <p className='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
                 The benefits of gardening are well documented and we offer a full range of horticultural experiences to service users. Whether its 
                 potting and planting, harvesting our allotment or maintaining our wildlife-friendly wildflower garden service users can experience 
                 the therapeutic benefits of being close to nature. Spending time outdoors and tending to plants is known to reduce stress and promote 
                 a sense of accomplishment and higher self-esteem, as well as boosting psychological well-being.
                 </p>
 
-                <p class='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
+                <p className='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
                 <br/>Our garden team work in our 3 garden allotments, providing the following services to individuals we support:  <br/><br/>
                     <span className='px-1 md:px-5 flex'>
-                        <ul class="list-disc ml-2 md:ml-8 " >
+                        <ul className="list-disc ml-2 md:ml-8 " >
                             <li>General garden maintenance</li>
                             <li>Grass cutting</li>
                             <li>Weed control</li>
@@ -325,7 +325,7 @@ function Activities() {
    
                         </ul> 
 
-                        <ul class="list-disc px-2 md:px-4 ml-8 " >
+                        <ul className="list-disc px-2 md:px-4 ml-8 " >
                             <li>Leaf blowing & collection</li>
                             <li>Moss removal</li>
                             <li>Branch collection</li>
@@ -340,18 +340,18 @@ function Activities() {
                 </div>
 
 
-                <div class=" pt-8 ">
+                <div className=" pt-8 ">
 
-                <h4 class="bg-gradient-to-r from-violet-950 to-fuchsia-950 bg-clip-text text-  mb-4 text-xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-2xl">
+                <h4 className="bg-gradient-to-r from-violet-950 to-fuchsia-950 bg-clip-text text-  mb-4 text-xl font-extrabold tracking-tight leading-none text-emerald-800 md:text-3xl lg:text-2xl">
                 Social Inclusion and Learning:
                     </h4>
-                <div id='learning' class="md:flex pt-4 pb-4">
-                        <div class=" col-span-1 px-2 pt-2">
-                            <img src={learning}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
+                <div id='learning' className="md:flex pt-4 pb-4">
+                        <div className=" col-span-1 px-2 pt-2">
+                            <img src={learning}className=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
                         </div>
 
-                        <div class=" col-span-1 px-2 pt-2">
-                            <img src={learning2}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
+                        <div className=" col-span-1 px-2 pt-2">
+                            <img src={learning2}className=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
                         </div>
                        
 
@@ -359,7 +359,7 @@ function Activities() {
                     
                
 
-                <p class='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
+                <p className='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
                 Our Companionship and Social Inclusion services is designed to provide friendly and engaging support inside the home and in the 
                 community. We help individuals maintain their independence and quality of life.<br/><br/>
 
@@ -375,18 +375,18 @@ function Activities() {
                 </div>
 
 
-                <div class=" pt-7 ">
+                <div className=" pt-7 ">
 
-                <h4 class=" mb-4 text-xl font-extrabold tracking-tight leading-none text-darkblue md:text-3xl lg:text-2xl">
+                <h4 className=" mb-4 text-xl font-extrabold tracking-tight leading-none text-darkblue md:text-3xl lg:text-2xl">
                 Other Activities and Community Engagement:
                     </h4>
-                <div id='others' class="md:flex pt-4 pb-4">
-                        <div class=" col-span-1 px-2 pt-2">
-                            <img src={hike}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
+                <div id='others' className="md:flex pt-4 pb-4">
+                        <div className=" col-span-1 px-2 pt-2">
+                            <img src={hike}className=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
                         </div>
 
-                        <div class=" col-span-1 px-2 pt-2">
-                            <img src={fun}class=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
+                        <div className=" col-span-1 px-2 pt-2">
+                            <img src={fun}className=" rounded-lg md:h-96  mr-3" alt="gardening"/> 
                         </div>
                        
 
@@ -394,7 +394,7 @@ function Activities() {
                     
                
 
-                <p class='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
+                <p className='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
                 Our experienced staff will work closely with you to develop different packages of activities. We work hard to identify skills and areas of 
                 development, making sure everyone who attends our activities has a fulfilling experience. These will be meaningful, stimulating, enjoyable 
                 whilst enabling independence as well as personal growth through identified learning needs. We develop activities and learning modules based 
@@ -405,10 +405,10 @@ function Activities() {
                 activities in the local community such as;<br/><br/>
                 </p>
 
-                <p class='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
+                <p className='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
                 <br/>
                     <span className='px-1 md:px-5 flex'>
-                        <ul class="list-disc ml-2 md:ml-8 " >
+                        <ul className="list-disc ml-2 md:ml-8 " >
                             <li>Gardening projects - we have 3 allotments in Leicester</li>
                             <li>Summer Coach trips</li>
                             <li>Summer camping and hiking</li>
@@ -419,7 +419,7 @@ function Activities() {
    
                         </ul> 
 
-                        <ul class="list-disc px-4 ml-8 " >
+                        <ul className="list-disc px-4 ml-8 " >
                             <li>Sunday visits to car boots collection</li>
                             <li>Fishing trips</li>
                             <li>Holiday trips to seaside and excursions to museums</li>

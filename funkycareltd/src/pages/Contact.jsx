@@ -30,16 +30,16 @@ function Contact() {
             <link rel="canonical" href="/contact" />
         </Helmet> */}
         <section className='px-4 mx-auto  text-center pt-6 py-4 lg:py-24'>
-            <div className=" max-w-screen-xl t pt-4">
+            <div className=" max-w-screen-xl mt-5 pt-4">
 
-                <div className="lg:px-4 mx-auto max-w-screen-xl text-center pt-6  ">
+                <div className="lg:px-4 mx-auto max-w-screen-xl text-center pt-6 mt-6 ">
                     <h4 className="mb-4  font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-3xl">
                     Contacting Us
                     </h4>
                 </div> 
 
-                <div className="sm:flex sm:items-center sm:justify-center lg:mx-8 mt-2 px-5">
-                  <p className="   text-darkbluetheme">
+                <div className="sm:flex sm:items-center sm:justify-center lg:mx-8 mt-5 px-5">
+                  <p className=" text-sm  text-darkbluetheme">
                       To request more information, please give us a call or email us. We would 
                       love to speak to you regarding our services. You can also enquire about our 
                       services. Simply leave your contact information using the form below and we will get back to you as soon as possible.
