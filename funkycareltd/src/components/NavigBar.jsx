@@ -26,22 +26,22 @@ export default function NavigBar() {
   };
 }, []); */
   return (
-<div className='bg-blue-200! dark:bg-blue-200!  fixed w-full z-20 top-0 inset-s-0'>
+<div className='bg-secondary-blue!  fixed w-full z-20 top-0 inset-s-0'>
 
     <Navbar
   fluid
-  className="bg-blue-200! py-1 px-6 max-w-full"
+  className="bg-white! py-1 px-6 max-w-full"
 >
   <NavbarBrand className="flex items-center gap-3">
     <NavbarLink as={Link} to="/">
       <img
         alt="Logo"
         src={logo}
-        className="h-20 w-20"
+        className="h-30 w-30"
       />
     </NavbarLink>
 
-    <span className="text-xl font-extrabold text-indigo-950 whitespace-nowrap">
+    <span className="text-xl font-extrabold text-darkblue whitespace-nowrap">
       Funkey Care Limited
     </span>
   </NavbarBrand>
@@ -52,7 +52,7 @@ export default function NavigBar() {
     <NavbarLink
       as={Link}
       to="/"
-      className=" text-base text-indigo-950!"
+      className=" text-base text-darkblue!"
     >
       Home
     </NavbarLink>
@@ -60,7 +60,7 @@ export default function NavigBar() {
     <NavbarLink
       as={Link}
       to="/about"
-      className=" text-base text-indigo-950!"
+      className=" text-base text-darkblue!"
     >
       About
     </NavbarLink>
@@ -68,7 +68,7 @@ export default function NavigBar() {
     <NavbarLink
       as={Link}
       to="/activities"
-      className="text-base text-indigo-950!"
+      className="text-base text-darkblue!"
     >
       Activities
     </NavbarLink>
@@ -76,24 +76,24 @@ export default function NavigBar() {
     <NavbarLink
        as={Link}
       to="/services"
-      className=" text-base text-indigo-950!" 
+      className=" text-base text-darkblue!" 
     >
       Services 
           
     </NavbarLink> 
 
-    <NavbarLink
+   {/*  <NavbarLink
       as={Link}
       to="/careers"
       className=" text-base text-indigo-950!"
     >
       Careers
-    </NavbarLink>
+    </NavbarLink> */}
 
     <NavbarLink
       as={Link}
       to="/contact"
-      className=" text-base text-indigo-950!"
+      className=" text-base text-darkblue!"
     >
       Contact
     </NavbarLink>

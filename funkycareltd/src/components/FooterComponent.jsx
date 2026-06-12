@@ -4,7 +4,7 @@ export default function FooterComponent() {
   return (
     <div className='mt-0'>
         
-<footer  className="relative bg-indigo-400 rounded-base shadow-xs border border-default ">
+<footer  className="relative bg-secondary-blue rounded-base shadow-xs border border-default ">
     <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
       <span className="text-sm text-body sm:text-center">© 2026 Funkey Care Limited. All Rights Reserved.
     </span>

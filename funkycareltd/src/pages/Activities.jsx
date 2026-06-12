@@ -17,7 +17,7 @@ function Activities() {
         <section >
         <section class=" bg-cover bg-center bg-no-repeat bg-activities bg-gray-100  bg-blend-multiply">
             <div class="px-4 mx-auto max-w-screen-xl   py-24 lg:py-40">
-                <h1 class="mb-4 text-2xl font-extrabold  tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-4xl">
+                <h1 class="mb-4 text-2xl font-extrabold  tracking-tight leading-none text-darkblue md:text-3xl lg:text-4xl">
                 Activity-Based Care:</h1>
                <div className='items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row '>
                      <div  className="flex flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
@@ -25,14 +25,14 @@ function Activities() {
                         
                     </div>
 
-                    <div class="    border-1 border-navcolour sm:82 rounded-lg   text-darkbluetheme   mx-4 ">
-                            <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkbluetheme md:text-2xl lg:text-2xl">
+                    <div class="    border-1 border-navcolour sm:82 rounded-lg   text-darkblue   mx-4 ">
+                            <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             What is Activity-Based Care? <br/><br/>
                             </h5>
 
                             <p class='font-normal text-justify text-sm leading-7 px-2'>
                             At Funkey Care Limited, we incorporate an Activity-Based Care (ABC) healthcare delivery model under our social inclusion services. 
-                            This model emphasizes preventive care, client engagement, and health promotion. The core idea is that by keeping individuals active 
+                            This model emphasises preventive care, client engagement, and health promotion. The core idea is that by keeping individuals active 
                             and engaged in various activities, they are more likely to maintain their health and avoid costly medical interventions.<br/><br/>
                         
                             <br/>
@@ -45,37 +45,44 @@ function Activities() {
 
                 <div>
 
-                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkbluetheme md:text-2xl lg:text-2xl">
+                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             Benefits of Activity Based Care <br/><br/>
                     </h5>
 
-                    <p class='font-normal text-darkbluetheme text-sm leading-7 px-2'>
+                    <p class='font-normal text-darkblue text-sm leading-7 px-2'>
                         There is a growing body of evidence supporting the positive impact of Activity-Based Care on the health and well-being of adults. 
                         Our approach focuses on promoting and supporting physical activity and social engagement. We engage individuals in their own 
                         health and wellness through education, counseling, and community support. The potential benefits of Activity-Based Care include:<br/><br/>
 
                             <ul class="list-disc ml-6">
-                            <li><b>Improved Physical Health:</b></li>
-                                <p class='font-normal text-darkbluetheme text-sm leading-7 px-2 pb-3'>
+                            <li><b>Improved Physical Health:</b>
+                                <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
                                     Regular physical activity can help reduce the risk of many chronic diseases, such as heart 
                                     disease, stroke, type II diabetes, and some forms of cancer. It can also help improve mental health, 
                                     sleep quality, and overall quality of life.
                                 </p>
-                            <li><b>Improved cognitive health</b></li>
-                                <p class='font-normal text-darkbluetheme text-sm leading-7 px-2 pb-3'>
+                            </li>
+
+                            <li><b>Improved cognitive health</b>
+                                <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
                                 Engaging in social activities and stimulating mental activities can help reduce the risk of cognitive decline and dementia.
 
                                 </p>
-                            <li><b>Increased independence and quality of life</b></li>
-                                <p class='font-normal text-darkbluetheme text-sm leading-7 px-2 pb-3'>
+                            </li>
+                            
+                            <li><b>Increased independence and quality of life</b>
+                                <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
                                 People who are physically active and engaged in social activities are more likely to maintain their independence and have a higher quality of life.
                                 </p>
+                            </li>
 
 
-                            <li><b>Reduced hospitalizations and emergency room visits.</b></li>
-                                <p class='font-normal text-darkbluetheme text-sm leading-7 px-2 pb-3'>
-                                Regular physical activity can help reduce the number of hospitalizations and emergency room visits.
+                            <li><b>Reduced hospitalisations and emergency room visits.</b>
+                                <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
+                                Regular physical activity can help reduce the number of hospitalisations and emergency room visits.
                                 </p>
+                            </li>
+
                             </ul>
                         
                             <br/><br/>
@@ -85,30 +92,34 @@ function Activities() {
 
                 <div>
 
-                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkbluetheme md:text-2xl lg:text-2xl">
+                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             Our Approach <br/><br/>
                     </h5>
 
-                    <p class='font-normal text-darkbluetheme text-sm leading-7 px-2'>
+                    <p class='font-normal text-darkblue text-sm leading-7 px-2'>
                         We work to engage the individuals we support in their own health and wellness through a variety of methods, including:<br/><br/>
 
                             <ul class="list-disc ml-6">
-                            <li><b>Education:</b></li>
-                                <p class='font-normal text-darkbluetheme text-sm leading-7 px-2 pb-3'>
-                                    Providing information and resources to help individuals understand the importance of staying active and engaged.
+                                <li><b>Education:</b>
+                                    <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
+                                        Providing information and resources to help individuals understand the importance of staying active and engaged.
 
-                                </p>
-                            <li><b>Counseling:</b></li>
-                                <p class='font-normal text-darkbluetheme text-sm leading-7 px-2 pb-3'>
-                                Offering support and guidance to help individuals incorporate physical activity and social engagement into their daily lives.
+                                    </p>
+                                </li>
 
-                                </p>
-                            <li><b>Community Support:</b></li>
-                                <p class='font-normal text-darkbluetheme text-sm leading-7 px-2 pb-3'>
-                                Facilitating access to community resources and activities that promote health and well-being.
-                                </p>
+                                <li><b>Counseling:</b>
+                                    <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
+                                    Offering support and guidance to help individuals incorporate physical activity and social engagement into their daily lives.
 
-                            
+                                    </p>
+                                </li>
+
+                                <li><b>Community Support:</b>
+                                    <p class='font-normal text-darkblue text-sm leading-7 px-2 pb-3'>
+                                    Facilitating access to community resources and activities that promote health and well-being.
+                                    </p>
+
+                                </li>
                             </ul>
                         
                             <br/><br/>
@@ -118,11 +129,11 @@ function Activities() {
 
                 <div>
 
-                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkbluetheme md:text-2xl lg:text-2xl">
+                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             Activity and Community Engagement <br/><br/>
                     </h5>
 
-                    <p class='font-normal text-darkbluetheme text-sm leading-7 px-2'>
+                    <p class='font-normal text-darkblue text-sm leading-7 px-2'>
                         Our experienced staff collaborates with you to create tailored activity packages. We strive to identify skills and areas for 
                         development, ensuring that everyone who participates in our activities has a fulfilling experience. Our activities are 
                         designed to be meaningful, stimulating, and enjoyable, promoting independence and personal growth through identified 
@@ -136,7 +147,7 @@ function Activities() {
                 </div>
                 <div>
 
-                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkbluetheme md:text-2xl lg:text-2xl">
+                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             Our Activity Program Includes: <br/><br/>
                     </h5>
                     <div  className=" items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
@@ -146,7 +157,7 @@ function Activities() {
                 
                         </div>
 
-                    <div className="   border-navcolour sm:82 rounded-lg   text-darkbluetheme   mx-4 ">
+                    <div className="   border-navcolour sm:82 rounded-lg   text-darkblue   mx-4 ">
                         {/* <h5 className="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-titleblue md:text-2xl lg:text-2xl">
                             <u>Supported living for Adults</u> <br/><br/>
                         </h5> */}
@@ -169,7 +180,7 @@ function Activities() {
 
                     
 
-                    <div className="   border-navcolour sm:82 rounded-lg   text-darkbluetheme   mx-4 ">
+                    <div className="   border-navcolour sm:82 rounded-lg   text-darkblue   mx-4 ">
                         <h5 className="mx-auto mt-6 mb-4 text-1xl font-bold tracking-tight leading-none  md:text-2xl lg:text-2xl">
                             Additional Activities: <br/><br/>
                         </h5>
@@ -186,19 +197,19 @@ function Activities() {
                             <b>Cooking Classes:</b> Teaching new recipes and cooking techniques to enhance life skills and nutrition.<br/><br/>
 
                             <b>Pet Therapy:</b> Interacting with animals to provide comfort and reduce stress. <br/><br/>
-                            <b> Fitness Classes:</b> Including yoga, tai chi, and gentle exercises to promote physical health1.<br/><br/>
+                            <b> Fitness Classes:</b> Including yoga, tai chi, and gentle exercises to promote physical health.<br/><br/>
 
-                            <b>Walking Groups:</b> Organizing regular walks to encourage physical activity and socialization1.<br/><br/>
+                            <b>Walking Groups:</b> Organising regular walks to encourage physical activity and socialisation.<br/><br/>
 
                             <b>Movie Nights:</b> Screening popular films for entertainment and relaxation.<br/><br/>
 
-                            <b>Gardening Therapy:</b> Offering therapeutic gardening sessions to promote mental and physical well-being2.<br/><br/>
+                            <b>Gardening Therapy:</b> Offering therapeutic gardening sessions to promote mental and physical well-being.<br/><br/>
 
                             <b>Technology Workshops:</b> Teaching the use of smartphones, tablets, and computers to stay connected with loved ones and access online resources.<br/><br/>
 
                             <b>Volunteer Opportunities:</b> Encouraging participation in community service projects to foster a sense of purpose and belonging.<br/><br/>
 
-                            <b>Memory Cafés:</b> Providing a supportive environment for individuals with memory loss and their caregivers to socialize and share experiences.<br/><br/>
+                            <b>Memory Cafés:</b> Providing a supportive environment for individuals with memory loss and their caregivers to socialise and share experiences.<br/><br/>
                         </p>
                     
                     </div> 
@@ -217,11 +228,11 @@ function Activities() {
 
 <div>
 
-                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkbluetheme md:text-2xl lg:text-2xl">
+                    <h5 class="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-darkblue md:text-2xl lg:text-2xl">
                             Gardening <br/><br/>
                     </h5>
 
-                    <p class='font-normal text-darkbluetheme text-sm leading-7 px-2'>
+                    <p class='font-normal text-darkblue text-sm leading-7 px-2'>
                         The benefits of gardening are well documented. We offer a full range of horticultural experiences to our service users. Whether it’s 
                         potting and planting, harvesting from our allotment, or maintaining our wildlife-friendly spaces, service users can experience the 
                         therapeutic benefits of being close to nature. Spending time outdoors and tending to plants is known to reduce stress, promote a 
@@ -234,7 +245,7 @@ function Activities() {
                              <div  className=" items-center grid grid-cols-2 bg-neutral-primary-soft px-2 pt-5  rounded-base md:flex-row  md:flex-row ">
                     
 
-                    <div className="   border-navcolour sm:82 rounded-lg   text-darkbluetheme   mx-4 ">
+                    <div className="   border-navcolour sm:82 rounded-lg   text-darkblue   mx-4 ">
                         <h5 className="mx-auto mt-2 mb-4 text-1xl font-bold tracking-tight leading-none  text-titleblue md:text-2xl lg:text-2xl">
                             <u>Our Gardening Services Include:</u> <br/><br/>
                         </h5>
@@ -295,14 +306,14 @@ function Activities() {
                     
                
 
-                <p class='font-normal bg-bluetheme text-darkbluetheme text-sm md:text-base   sm:items-center sm:justify-center px-2'>
+                <p class='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
                 The benefits of gardening are well documented and we offer a full range of horticultural experiences to service users. Whether its 
                 potting and planting, harvesting our allotment or maintaining our wildlife-friendly wildflower garden service users can experience 
                 the therapeutic benefits of being close to nature. Spending time outdoors and tending to plants is known to reduce stress and promote 
                 a sense of accomplishment and higher self-esteem, as well as boosting psychological well-being.
                 </p>
 
-                <p class='font-normal bg-bluetheme text-darkbluetheme text-sm md:text-base   sm:items-center sm:justify-center px-2'>
+                <p class='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
                 <br/>Our garden team work in our 3 garden allotments, providing the following services to individuals we support:  <br/><br/>
                     <span className='px-1 md:px-5 flex'>
                         <ul class="list-disc ml-2 md:ml-8 " >
@@ -348,7 +359,7 @@ function Activities() {
                     
                
 
-                <p class='font-normal bg-bluetheme text-darkbluetheme text-sm md:text-base   sm:items-center sm:justify-center px-2'>
+                <p class='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
                 Our Companionship and Social Inclusion services is designed to provide friendly and engaging support inside the home and in the 
                 community. We help individuals maintain their independence and quality of life.<br/><br/>
 
@@ -366,7 +377,7 @@ function Activities() {
 
                 <div class=" pt-7 ">
 
-                <h4 class=" mb-4 text-xl font-extrabold tracking-tight leading-none text-darkbluetheme md:text-3xl lg:text-2xl">
+                <h4 class=" mb-4 text-xl font-extrabold tracking-tight leading-none text-darkblue md:text-3xl lg:text-2xl">
                 Other Activities and Community Engagement:
                     </h4>
                 <div id='others' class="md:flex pt-4 pb-4">
@@ -383,7 +394,7 @@ function Activities() {
                     
                
 
-                <p class='font-normal bg-bluetheme text-darkbluetheme text-sm md:text-base   sm:items-center sm:justify-center px-2'>
+                <p class='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
                 Our experienced staff will work closely with you to develop different packages of activities. We work hard to identify skills and areas of 
                 development, making sure everyone who attends our activities has a fulfilling experience. These will be meaningful, stimulating, enjoyable 
                 whilst enabling independence as well as personal growth through identified learning needs. We develop activities and learning modules based 
@@ -394,7 +405,7 @@ function Activities() {
                 activities in the local community such as;<br/><br/>
                 </p>
 
-                <p class='font-normal bg-bluetheme text-darkbluetheme text-sm md:text-base   sm:items-center sm:justify-center px-2'>
+                <p class='font-normal bg-bluetheme text-darkblue text-sm md:text-base   sm:items-center sm:justify-center px-2'>
                 <br/>
                     <span className='px-1 md:px-5 flex'>
                         <ul class="list-disc ml-2 md:ml-8 " >

@@ -107,7 +107,7 @@ export default function Testimonials() {
               className="min-w-[320px] md:min-w-[420px] bg-white/70 backdrop-blur-xl border border-teal-100 shadow-xl rounded-3xl p-8"
             >
               {/* Quote */}
-              <p className="text-gray-600 text-lg leading-relaxed mb-8">
+              <p className="text-gray-600 text-sm leading-relaxed mb-8">
                 “{t.text}”
               </p>
 

@@ -47,7 +47,7 @@ function Services() {
                         </h5>
 
                         <p className=' text-sm leading-7 px-2'>
-                        Our Supported Living services are designed to help individuals live independently and manage their tenancies, with personalized 
+                        Our Supported Living services are designed to help individuals live independently and manage their tenancies, with personalised 
                         support based on their needs and goals. We promote choice and independence, supporting adults with learning disabilities, mental 
                         health needs, dementia, post-hospital discharge, and other complex care needs. Our service provides a calming, therapeutic 
                         environment for adults with learning difficulties and works closely with individuals transitioning from secure units into the 
@@ -107,7 +107,7 @@ function Services() {
                         <b>Medication Management:</b> Providing support with medication, including prompting from blister packs and monitoring supply to 
                         ensure adherence to prescribed regimens. <br/><br/> 
                         
-                        <b>Mobility Assistance:</b> Helping clients move safely around their environment, utilizing mobility aids as necessary to promote independence.<br/><br/>
+                        <b>Mobility Assistance:</b> Helping clients move safely around their environment, utiliing mobility aids as necessary to promote independence.<br/><br/>
                         </p>
 
                     

@@ -22,14 +22,22 @@
   --color-herodiv: #071952;
   --color-bluetheme: white;
   --color-darkbluetheme: #003c43;
-  --color-red: #ff0000;
+  --color-red: #b50303;
   --color-greentheme: #00dfa2;
   --color-cards: #ffe5e5;
-  --color-footer: #1a5319;
+  --color-footer: #11879F;
   --color-tealtext: #37b7c3;
   --color-yellowfooter: #ffcd4b;
   --color-yellowtheme: #ff4b91;
   --color-goldtheme: #ffea20;
+  --color-darkblue:  #057a8a;
+--color-secondary-blue:#0DB4C9;
+
+--color-primary-green: #119960;
+--color-secondary-green:#1D7F52;
+
+--color-primary-gold:  #E29314;
+--color-secondary-gold:#B85E10;
 
   
 }
@@ -69,7 +77,16 @@
 }
 
 .service-card {
-   @apply w-[250px]  rounded-2xl bg-white shadow-xl transition hover:scale-105;
+  width: 15.625rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: scale(1.05);
+}
 
   
   /* background: rgba(255,255,255,0.75);
@@ -85,8 +102,8 @@
 
   transition:
     transform 0.4s ease,
-    box-shadow 0.4s ease; */
-}
+    box-shadow 0.4s ease; 
+}*/
 
 /* .service-card:hover {
   transform: translateY(-12px);
