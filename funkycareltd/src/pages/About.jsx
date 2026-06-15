@@ -13,10 +13,10 @@ export default function About() {
             <div className=" m-5 justify-items-center pt-8">
                 <h1 className="text-4xl font-bold text-darkblue  p-3 ">About Us</h1>
             </div>
-            <div  className=" items-center md:grid md:grid-cols-2 bg-neutral-primary-soft p-6 mx-12 rounded-base shadow-xs md:flex-row  md:flex-row ">
+            <div  className=" items-center md:grid md:grid-cols-2 bg-neutral-primary-soft p-2 md:p-6 mx-2 md:mx-12 rounded-base shadow-xs md:flex-row  md:flex-row ">
                 <div  className="md:flex md:flex-col items-center bg-neutral-primary-soft p-2  rounded-base  ">
                     <img className="object-cover w-full rounded-base h-64 md:h-auto md:w-2/4 mb-4 md:mb-0 border rounded-lg" src={Goal} alt="Goal"/>
-                    <div className="mda:flex md:flex-col justify-between md:p-4 leading-normal">
+                    <div className="md:flex md:flex-col justify-between md:p-4 leading-normal">
                         <h5 className="mb-2 text-center text-2xl font-bold tracking-tight text-darkblue">Our Mission</h5>
                         <p className="mt-6 text-body text-sm leading-7">At Funkey Care Limited, our mission is to deliver outstanding supported living and respite care services tailored to individuals with 
                             learning disabilities, mental health challenges and other complex care needs. We are dedicated to fostering empowerment, independence and 
@@ -217,12 +217,12 @@ export default function About() {
 
             </div> */}
 
-            <div  className=" items-center  bg-neutral-primary-soft px-6 pt-1  rounded-base  ">
-                <div className=" m-5 justify-items-center p-2">
+            <div  className=" items-center  bg-neutral-primary-soft px-2 md:px-6 pt-1  rounded-base  ">
+                <div className="m-2 md:m-5 justify-items-center p-2">
                     <h1 className="text-2xl mdtext-4xl font-bold text-darkblue  p-2 ">Why Choose US</h1>
                 </div>
 
-                <div  className=" items-center md:grid md:grid-cols-3 bg-neutral-primary-soft p- mx-12 rounded-base  md:flex-row  md:flex-row ">
+                <div  className=" items-center md:grid md:grid-cols-3 bg-neutral-primary-soft mx-2 md:mx-12 rounded-base  md:flex-row  md:flex-row ">
                     <div  className="md:flex md:flex-col items-center bg-neutral-primary-soft p-2  rounded-base">
                         <div className=' col-span-1  rounded-lg'>
                                     <IconContext.Provider value={{ color: '#057a8a', size: '160px', padding:'2px ' }}>

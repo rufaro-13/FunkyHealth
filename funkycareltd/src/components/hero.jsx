@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 export default function Hero() {
     return (
         
@@ -6,7 +7,7 @@ export default function Hero() {
 
 <section className ="relative min-h-screen overflow-hidden">
   {/* Background Image */}
-  <div className="absolute inset-0 hero-bg h-full w-full object-cover">
+  <div className="absolute inset-0 hero-bg h-full  md:w-full object-cover">
     
   </div>
 
@@ -22,7 +23,7 @@ export default function Hero() {
 
       
       {/* Logo / Company Name */}
-      <p className="mb-4 text-lg font-medium tracking-wide text-teal-600">
+      <p className="mb-4 text-3xl font-bold tracking-wide text-teal-600">
         Funky Care Limited
       </p>
 
@@ -45,13 +46,13 @@ export default function Hero() {
 
       {/* Buttons */}
       <div className="flex flex-wrap gap-4">
-        <button className="rounded-full bg-teal-500 px-8 py-4 text-lg font-semibold text-white transition hover:bg-teal-600">
+        <Link to="/contact" className="rounded-full bg-teal-500 px-8 py-4 text-lg font-semibold text-white transition hover:bg-teal-600">
           Get Support Today
-        </button>
+        </Link>
 
-        <button className="rounded-full border border-white/70 px-8 py-4 text-lg font-semibold text-white transition hover:bg-white hover:text-black">
+        <Link to="/services" className="rounded-full border border-teal-500 md:border-white/70 px-8 py-4 text-lg font-semibold md:text-white text-teal-500 transition hover:bg-white hover:text-black">
           Our Services
-        </button>
+        </Link>
       </div>
     </div>
   </div>

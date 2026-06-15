@@ -32,12 +32,12 @@ export default function NavigBar() {
   fluid
   className="bg-white! py-1 px-2 max-w-full"
 >
-  <NavbarBrand className="flex items-center gap-3">
+  <NavbarBrand className="flex items-center border-b-0! gap-3">
     <NavbarLink as={Link} to="/">
       <img
         alt="Logo"
         src={logo}
-        className="md:h-20 md:w-20  h-16 w-16 rounded-lg"
+        className="md:h-20 md:w-20 border-b-0!  h-16 w-16 rounded-lg"
       />
     </NavbarLink>
 
@@ -46,13 +46,13 @@ export default function NavigBar() {
     </span>
   </NavbarBrand>
 
-  <NavbarToggle />
+  <NavbarToggle className="text-darkblue! bg-transparent! hover:bg-blue-100!" />
 
-  <NavbarCollapse className="md:flex text-indigo-950! md:items-center md:space-x-8 ml-auto mr-5">
+  <NavbarCollapse className="md:flex border-0! text-indigo-950! md:items-center md:space-x-8 ml-auto mr-5">
     <NavbarLink
       as={Link}
       to="/"
-      className=" text-base text-darkblue!"
+      className=" text-base text-darkblue! border-b-0!"
     >
       Home
     </NavbarLink>
@@ -60,7 +60,7 @@ export default function NavigBar() {
     <NavbarLink
       as={Link}
       to="/about"
-      className=" text-base text-darkblue!"
+      className=" text-base text-darkblue! border-b-0!"
     >
       About
     </NavbarLink>
@@ -68,7 +68,7 @@ export default function NavigBar() {
     <NavbarLink
       as={Link}
       to="/activities"
-      className="text-base text-darkblue!"
+      className="text-base text-darkblue! border-b-0!"
     >
       Activities
     </NavbarLink>
@@ -76,7 +76,7 @@ export default function NavigBar() {
     <NavbarLink
        as={Link}
       to="/services"
-      className=" text-base text-darkblue!" 
+      className=" text-base text-darkblue! border-b-0!" 
     >
       Services 
           
@@ -93,7 +93,7 @@ export default function NavigBar() {
     <NavbarLink
       as={Link}
       to="/contact"
-      className=" text-base text-darkblue!"
+      className=" text-base text-darkblue! border-b-0!"
     >
       Contact
     </NavbarLink>

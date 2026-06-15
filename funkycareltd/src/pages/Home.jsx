@@ -21,7 +21,7 @@ export default function Home() {
               Our Services
             </p>
 
-            <h2 className="text-4xl md:text-6xl font-bold text-cyan-950">
+            <h2 className="text-2xl md:text-6xl font-bold text-cyan-950">
               Support designed around people
             </h2>
           </div>
@@ -30,7 +30,7 @@ export default function Home() {
 
                     <div className=" shadow-2xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards col-span-1 rounded-lg bg-bluetheme  md:w-1/2 mt-8 sm:items-center sm:justify-center">
                         <img className="rounded-lg" src={respiteCare} alt="old man sitting on a wheelchair" />
-                        <h5 className="text-lg font-semibold tracking-tight text-indigo-800 pt-2">
+                        <h5 className="text-lg font-semibold tracking-tight text-darkblue pt-2">
                             <p>
                             Home Support
                             </p>
@@ -41,7 +41,7 @@ export default function Home() {
                         
                             </p>
 
-                            <Link to="/services" 
+                            <Link to="/services"
                                  className="inline-flex justify-center hover:text-gray-900 items-center mt-2 md:py-2 md:mt-3 py-1 px-3 text-white font-medium text-sm  text-center
                                  text-blue rounded-lg border border-green hover:bg-green-300 focus:ring-4 focus:ring-green-400  bg-green-400 ">
                                      Learn more
@@ -54,7 +54,7 @@ export default function Home() {
                 
                     <div className="shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards col-span-1 lg:w-1/2 rounded-lg bg-bluetheme md:w-1/3 mt-8 sm:items-center sm:justify-center">
                         <img className="rounded-t-lg" src={personalCare} alt="young-doctor-helping-one-guy-stand-up" />
-                        <h5 className="text-lg font-semibold tracking-tight text-indigo-800 pt-2">
+                        <h5 className="text-lg font-semibold tracking-tight text-darkblue pt-2">
                             <p>
                             Personal Care
                             </p>
@@ -74,7 +74,7 @@ export default function Home() {
 
                     <div className="shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/3 mt-8 sm:items-center sm:justify-center">
                         <img className="rounded-t-lg" src={supportedLiving} alt="male-social-worker-taking-care-old-woman" />
-                        <h5 className="text-lg font-semibold tracking-tight text-indigo-800 pt-2">
+                        <h5 className="text-lg font-semibold tracking-tight text-darkblue pt-2">
                             <p >
                             Live-In Care
                             </p>
@@ -94,7 +94,7 @@ export default function Home() {
 
                     <div className="shadow-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:translate-x-6 hover:scale-110 duration-300 hover:bg-cards col-span-1 rounded-lg bg-bluetheme lg:w-1/2 md:w-1/3 mt-8 items-center ">
                         <img className="rounded-t-lg" src={socialInclusion} alt="male-social-worker-taking-care-old-woman" />
-                        <h5 className="text-lg font-semibold tracking-tight text-indigo-800 pt-2">
+                        <h5 className="text-lg font-semibold tracking-tight text-darkblue pt-2">
                             <p >
                             Specialist Care
                             </p>
@@ -155,7 +155,7 @@ export default function Home() {
       {/* About */}
       <section className="bg-[#eef2f1] py-20">
         <div className="max-w-5xl mx-auto text-center px-6">
-          <h2 className="text-4xl font-bold text-cyan-950 mb-6">
+          <h2 className=" text-2xl md:text-4xl font-bold text-cyan-950 mb-6">
             Compassionate care, personalised for you
           </h2>
 

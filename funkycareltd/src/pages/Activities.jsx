@@ -250,7 +250,7 @@ function Activities() {
                             <u>Our Gardening Services Include:</u> <br/><br/>
                         </h5>
 
-                        <p className=' text-sm leading-7 px-2'>
+                        <p className='list-disc text-sm leading-7 px-2'>
                             <ul>
                                 <li>General Garden Maintenance</li>
                                 <li>Grass Cutting</li>

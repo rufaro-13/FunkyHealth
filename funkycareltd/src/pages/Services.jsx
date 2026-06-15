@@ -1,4 +1,4 @@
-import domiciliary from '../images/magnific_supported-living-for-adul_8vReMvJIrU.png'
+import domiciliary from '../images/magnific_youth-with-mental-health-_CHM4orxEEy.png'
 import personalCare from '../images/magnific_helping-a-disabled-person_DBP0aqdpcl.png'
 import respite from '../images/magnific_adult-lying-in-bed-under-_xgmMOkijfW.png'
 import socialInclusion from '../images/magnific_bright-welcoming-supporte_brXYFRa5Y2.png'
@@ -14,8 +14,8 @@ function Services() {
         </Helmet> */}
         <section >
         <section className=" bg-cover bg-center bg-no-repeat services-bg bg-gray-600  bg-blend-multiply">
-            <div className="px-4 mx-auto max-w-7xl  bg- py-24 lg:py-50">
-                <h1 className="mb-4 text-4xl font-extrabold  tracking-tight leading-none text-icyteal md:text-5xl lg:text-6xl">
+            <div className="px-4 mx-auto max-w-7xl justify-items-center bg- py-24 lg:py-50">
+                <h1 className="mb-1 text-4xl font-extrabold  tracking-tight leading-none text-icyteal md:text-5xl lg:text-6xl">
                  Our Services </h1>
                
                 
