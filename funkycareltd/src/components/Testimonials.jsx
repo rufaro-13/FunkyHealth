@@ -60,7 +60,7 @@ export default function Testimonials() {
     );
 
   return (
-    <section className="w-full py-20 bg-gradient-to-b from-white to-teal-50">
+    <section className="w-full md:py-20 py-10 bg-gradient-to-b from-white to-teal-50">
       {/* Header */}
       <div className="text-center mb-12">
         <p className="text-teal-600 uppercase tracking-[0.35em] text-sm font-semibold">
@@ -104,7 +104,7 @@ export default function Testimonials() {
               animate={{ opacity: 1, y: 0 }}
               whileHover={{ scale: 1.03, rotateX: 2 }}
               transition={{ duration: 0.5 }}
-              className="min-w-[320px] md:min-w-[420px] bg-white/70 backdrop-blur-xl border border-teal-100 shadow-xl rounded-3xl p-8"
+              className="min-w-[320px] md:min-w-[420px] bg-white/70 backdrop-blur-xl border border-teal-100 shadow-xl rounded-3xl p-4 md:p-8"
             >
               {/* Quote */}
               <p className="text-gray-600 text-sm leading-relaxed mb-8">
@@ -127,7 +127,7 @@ export default function Testimonials() {
         </div>
 
         {/* Dots */}
-        <div className="flex justify-center gap-2 mt-8">
+        <div className="flex justify-center gap-2 mt-4">
           {testimonials.map((_, i) => (
             <button
               key={i}

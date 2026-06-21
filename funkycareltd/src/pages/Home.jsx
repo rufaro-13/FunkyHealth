@@ -12,7 +12,7 @@ export default function Home() {
 
       {/* Services Section */}
       <section className="bg-cyan-950 w-full py-20">
-        <div className="relative w-full lg:px-4 mx-auto bg-[#eef2f1] py-16">
+        <div className="relative w-full lg:px-4 mx-auto bg-[#eef2f1] md:py-16">
           
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(20,184,166,0.08),transparent_60%)]"></div>
 
@@ -153,7 +153,7 @@ export default function Home() {
       </section>
 
       {/* About */}
-      <section className="bg-[#eef2f1] py-20">
+      <section className="bg-[#eef2f1] md:py-20 py-10">
         <div className="max-w-5xl mx-auto text-center px-6">
           <h2 className=" text-2xl md:text-4xl font-bold text-cyan-950 mb-6">
             Compassionate care, personalised for you
