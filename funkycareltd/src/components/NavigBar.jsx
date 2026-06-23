@@ -82,13 +82,13 @@ export default function NavigBar() {
           
     </NavbarLink> 
 
-   {/*  <NavbarLink
+    <NavbarLink
       as={Link}
       to="/careers"
-      className=" text-base text-indigo-950!"
+      className=" text-base text-darkblue! border-b-0!"
     >
       Careers
-    </NavbarLink> */}
+    </NavbarLink> 
 
     <NavbarLink
       as={Link}
