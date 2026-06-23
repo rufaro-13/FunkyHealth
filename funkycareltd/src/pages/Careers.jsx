@@ -103,43 +103,43 @@ function Careers() {
             The above list of duties is not exhaustive and may be modified from time to time in accordance with the development of the service and the employee.
             <br/><br/>
             Note : Staff are paid hourly rates.<br/><br/>
-            <span className='font-semibold'>Please download an application form and send to 
+            <span className='font-semibold'>Please{/* download an application form and */} send your CV to 
              <a href="mailto:careers@funkycareltd.co.uk" className=" underline text-darkblue rounded hover:bg-gray-100 
             md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-navcolour dark:hover:bg-gray-700
-             dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"> careers@funkycareltd.co.uk</a> along with your CV. <span className='italic font-normal'>(The form in Word format can be completed electronically and
-             PDF format is for printing the form)</span>
+             dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"> careers@funkycareltd.co.uk</a>{/*  along with your CV. */} {/* <span className='italic font-normal'>(The form in Word format can be completed electronically and
+             PDF format is for printing the form)</span> */}
             </span></p>
 
         </div>
 
         <div class='text-center py-4 md: flex'>
         
-        <div class="col-span-1 flex lg:ml-8 mt-2 px-2 lg:px-8  items-start">
+        {/* <div class="col-span-1 flex lg:ml-8 mt-2 px-2 lg:px-8  items-start">
                <IconContext.Provider value={{ color: 'red', size: '25px', padding:'2px 2px' }}>
                     
                     <FaFilePdf class=" mx-1 my-1"/>
                 
                </IconContext.Provider>
-               <p class="md:text-1xl text-sm">
+               <p class="md:text-1xl text-sm"> */}
                
               {/*  <a href={appfm} class="text-blue-700 hover:underline" download="Ste_by_Step Application Form">Application Form</a> */}
-               </p>
+              {/*  </p>
                
-             </div>
+             </div> */}
 
 
-             <div class="col-span-1 flex lg:ml-8 mt-2 px-2 lg:px-8  items-start">
+             {/* <div class="col-span-1 flex lg:ml-8 mt-2 px-2 lg:px-8  items-start">
                <IconContext.Provider value={{ color: 'blue', size: '25px', padding:'2px 2px' }}>
                     
                     <FaFileWord class=" mx-1 my-1"/>
                 
                </IconContext.Provider>
-               <p class="md:text-1xl text-sm">
+               <p class="md:text-1xl text-sm"> */}
                
                {/* <a href={applform} class="text-blue-700 hover:underline" download="Ste_by_Step Application Form">Application Form</a> */}
-               </p>
+              {/*  </p>
                
-             </div>
+             </div> */}
         
         </div>
 
